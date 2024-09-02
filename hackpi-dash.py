@@ -26,7 +26,7 @@ def get_color(value):
         return curses.color_pair(4)  # Magenta
 
 # Function to display the data
-def display_data(stdscr, temperature, humidity, co2_data):
+def display_data(stdscr, temperature, humidity, co2_data, co2):
     stdscr.clear()
 
     # Display temperature and humidity
@@ -34,7 +34,7 @@ def display_data(stdscr, temperature, humidity, co2_data):
     stdscr.addstr(1, 0, f"Humidity: {humidity:.1f} %")
 
     # Display the CO2 graph label
-    stdscr.addstr(3, 0, "CO2 Level (ppm):")
+    stdscr.addstr(3, 0, f"CO2 Level (ppm): {co2}")
 
     max_height, max_width = stdscr.getmaxyx()
     
@@ -81,7 +81,7 @@ def main(stdscr):
             co2_data.append(co2)
             
             # Call the display function
-            display_data(stdscr, temperature, humidity, co2_data)
+            display_data(stdscr, temperature, humidity, co2_data, co2)
         
         time.sleep(20)
 
