@@ -21,9 +21,9 @@ Make sure that the sensor is plugged into the StemmaQT port on the right hand si
 
 You should see output similar to this on your screen:
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
-    <img src="https://github.com/user-attachments/assets/7cad9ce5-5ee3-43cd-a6ab-06cffe5b4862" alt="HackPi-Enviro" width="400">
-</div>
+<img src="https://github.com/user-attachments/assets/7cad9ce5-5ee3-43cd-a6ab-06cffe5b4862" alt="HackPi-Enviro" width="400">
+
+
 
 ### How to make the symlink permanent
 For this we will use a udev rule because it is the most native and flexible method for handling device nodes in Linux.
