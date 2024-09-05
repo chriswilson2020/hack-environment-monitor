@@ -30,7 +30,7 @@ The script now outputs the data to a csv file in the root directory of the scrip
 
 `tail -f sensor_data.csv`
 
-<img width="400" alt="Screenshot 2024-09-05 at 09 37 10" src="https://github.com/user-attachments/assets/5889f68c-e000-4fa5-bf91-d6e3120733ca">
+<img width="800" alt="Screenshot 2024-09-05 at 09 37 10" src="https://github.com/user-attachments/assets/5889f68c-e000-4fa5-bf91-d6e3120733ca">
 
 ### How to make the symlink permanent
 For this we will use a udev rule because it is the most native and flexible method for handling device nodes in Linux.
