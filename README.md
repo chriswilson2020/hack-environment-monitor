@@ -24,6 +24,12 @@ You should see output similar to this on your screen:
 
 <img src="https://github.com/user-attachments/assets/7cad9ce5-5ee3-43cd-a6ab-06cffe5b4862" alt="HackPi-Enviro" width="400">
 
+### Monitoring
+
+The script now outputs the data to a csv file in the root directory of the script.  You can monitor that file live for instance via ssh for example using the command below:
+
+`tail -f sensor_data.csv`
+
 ### How to make the symlink permanent
 For this we will use a udev rule because it is the most native and flexible method for handling device nodes in Linux.
 Udev rules are specifically designed for managing device files, making this approach clean and reliable.
