@@ -22,7 +22,14 @@ Make sure that the sensor is plugged into the StemmaQT port on the right hand si
 
 You should see output similar to this on your screen:
 
+With version 0.5:
+
+
 <img src="https://github.com/user-attachments/assets/7cad9ce5-5ee3-43cd-a6ab-06cffe5b4862" alt="HackPi-Enviro" width="400">
+
+With version 1.0:
+
+<img src="https://github.com/user-attachments/assets/ba4d51a7-9063-4b27-9fdb-cc7ba24e09cc" alt="HackPi-Enviro" width="400">
 
 ### Monitoring
 
@@ -31,6 +38,7 @@ The script now outputs the data to a csv file in the root directory of the scrip
 `tail -f sensor_data.csv`
 
 <img width="1203" alt="Screenshot 2024-09-05 at 09 37 10" src="https://github.com/user-attachments/assets/17e71504-94d4-4368-84be-1e30387c25d3">
+
 
 
 ### How to make the symlink permanent
